@@ -1,0 +1,1704 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 995438498, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 6
+  lastUpdatedAtString: 2021-01-06T16:31:48.242+01:00
+  initializedAtString: 2021-01-06T11:45:36.311+01:00
+  entries:
+  - path: Assets\New Terrain 1.asset
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\New Terrain 1.asset
+    projectPath: Assets\New Terrain 1.asset
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\New Terrain 1.asset.meta
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\New Terrain 1.asset.meta
+    projectPath: Assets\New Terrain 1.asset.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\New Terrain.asset
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\New Terrain.asset
+    projectPath: Assets\New Terrain.asset
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\New Terrain.asset.meta
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\New Terrain.asset.meta
+    projectPath: Assets\New Terrain.asset.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scenes\Level2.unity
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\Scenes\Level2.unity
+    projectPath: Assets\Scenes\Level2.unity
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\Scenes\Level2.unity.meta
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\Scenes\Level2.unity.meta
+    projectPath: Assets\Scenes\Level2.unity.meta
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Assets\scripts\PlayerController.cs
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Assets\scripts\PlayerController.cs
+    projectPath: Assets\scripts\PlayerController.cs
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\APIUpdater\project-dependencies.graph
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ArtifactDB
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ArtifactDB
+    projectPath: Library\ArtifactDB
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\Artifacts\00\001c3367b72cf0ff271185dd5ddd745d
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\00\001c3367b72cf0ff271185dd5ddd745d
+    projectPath: Library\Artifacts\00\001c3367b72cf0ff271185dd5ddd745d
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\03\03defd0e6ad6c2e6ceca3eb29bc90d6e
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\03\03defd0e6ad6c2e6ceca3eb29bc90d6e
+    projectPath: Library\Artifacts\03\03defd0e6ad6c2e6ceca3eb29bc90d6e
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\09\09b0e27a1e8a4542091fd0ced3744580
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\09\09b0e27a1e8a4542091fd0ced3744580
+    projectPath: Library\Artifacts\09\09b0e27a1e8a4542091fd0ced3744580
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\0a\0a6947eb3b2b1bda709389fd745db652
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\0a\0a6947eb3b2b1bda709389fd745db652
+    projectPath: Library\Artifacts\0a\0a6947eb3b2b1bda709389fd745db652
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\0e\0eb6de84c276e2f4d56ba21fa2eabb4c
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\0e\0eb6de84c276e2f4d56ba21fa2eabb4c
+    projectPath: Library\Artifacts\0e\0eb6de84c276e2f4d56ba21fa2eabb4c
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\0e\0efc7c7b3b9e7e2504727073a2c677fe
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\0e\0efc7c7b3b9e7e2504727073a2c677fe
+    projectPath: Library\Artifacts\0e\0efc7c7b3b9e7e2504727073a2c677fe
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\10\101bb3f46a6b29c3e76fec1096fde201
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\10\101bb3f46a6b29c3e76fec1096fde201
+    projectPath: Library\Artifacts\10\101bb3f46a6b29c3e76fec1096fde201
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\10\1061365b90cb1973bac24fa0bd9856c0
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\10\1061365b90cb1973bac24fa0bd9856c0
+    projectPath: Library\Artifacts\10\1061365b90cb1973bac24fa0bd9856c0
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\14\142a40b17a8b9fcc9003ac90c8ca7779
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\14\142a40b17a8b9fcc9003ac90c8ca7779
+    projectPath: Library\Artifacts\14\142a40b17a8b9fcc9003ac90c8ca7779
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\1a\1ae688334499492d97819ae0282e546e
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\1a\1ae688334499492d97819ae0282e546e
+    projectPath: Library\Artifacts\1a\1ae688334499492d97819ae0282e546e
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\1b\1bae02059ab85534f5921afb3646b0d2
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\1b\1bae02059ab85534f5921afb3646b0d2
+    projectPath: Library\Artifacts\1b\1bae02059ab85534f5921afb3646b0d2
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\1d\1d7b58b50bfcdc6d1008828c32ec69f6
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\1d\1d7b58b50bfcdc6d1008828c32ec69f6
+    projectPath: Library\Artifacts\1d\1d7b58b50bfcdc6d1008828c32ec69f6
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    projectPath: Library\Artifacts\20\20ad84b0601d461c152fb4d0ead6ec56
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\25\258304323ea7367daf8cf060cd166f59
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\25\258304323ea7367daf8cf060cd166f59
+    projectPath: Library\Artifacts\25\258304323ea7367daf8cf060cd166f59
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\31\3118b2e9e4b90f4ba90217d0ce7e68fc
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\31\3118b2e9e4b90f4ba90217d0ce7e68fc
+    projectPath: Library\Artifacts\31\3118b2e9e4b90f4ba90217d0ce7e68fc
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\36\3615c4dc723c6e8bba546a46ef479ba5
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\36\3615c4dc723c6e8bba546a46ef479ba5
+    projectPath: Library\Artifacts\36\3615c4dc723c6e8bba546a46ef479ba5
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\38\38a71003f101557bdc2d3fb20223f918
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\38\38a71003f101557bdc2d3fb20223f918
+    projectPath: Library\Artifacts\38\38a71003f101557bdc2d3fb20223f918
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\3c\3c8872430f7c9ec5402e502b1baa1de7
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\3c\3c8872430f7c9ec5402e502b1baa1de7
+    projectPath: Library\Artifacts\3c\3c8872430f7c9ec5402e502b1baa1de7
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\3e\3ebca8c79248f9561d399bbd8df973c5
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\3e\3ebca8c79248f9561d399bbd8df973c5
+    projectPath: Library\Artifacts\3e\3ebca8c79248f9561d399bbd8df973c5
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\40\4019679ea7f8de54ee7f1c4dffc74f91
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\40\4019679ea7f8de54ee7f1c4dffc74f91
+    projectPath: Library\Artifacts\40\4019679ea7f8de54ee7f1c4dffc74f91
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\40\408a11923a28410b7a79b536d428c261
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\40\408a11923a28410b7a79b536d428c261
+    projectPath: Library\Artifacts\40\408a11923a28410b7a79b536d428c261
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\40\40a3511b4788f1267fecb3a196228cd5
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\40\40a3511b4788f1267fecb3a196228cd5
+    projectPath: Library\Artifacts\40\40a3511b4788f1267fecb3a196228cd5
+    originalPath: Library\Artifacts\44\443e0e3b800622ca4a60353521350e56
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\44\443475dbcf79b298fe066dbe3b891e82
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\44\443475dbcf79b298fe066dbe3b891e82
+    projectPath: Library\Artifacts\44\443475dbcf79b298fe066dbe3b891e82
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\48\480b30316bf5591ebfd658780475eff7
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\48\480b30316bf5591ebfd658780475eff7
+    projectPath: Library\Artifacts\48\480b30316bf5591ebfd658780475eff7
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\49\49e82387cd2a49846e8b78d0b51f4cb8
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\49\49e82387cd2a49846e8b78d0b51f4cb8
+    projectPath: Library\Artifacts\49\49e82387cd2a49846e8b78d0b51f4cb8
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\4d\4d6267af5d4fcb0b194e27f2e10810c7
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\4d\4d6267af5d4fcb0b194e27f2e10810c7
+    projectPath: Library\Artifacts\4d\4d6267af5d4fcb0b194e27f2e10810c7
+    originalPath: Library\Artifacts\7b\7b4d01a96e5f8a078fdddd33c681a017
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\4e\4eff09789c1236354bb73690824dd2be
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\4e\4eff09789c1236354bb73690824dd2be
+    projectPath: Library\Artifacts\4e\4eff09789c1236354bb73690824dd2be
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\52\527c39b740b738368bb9dcced5c3d7c2
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\52\527c39b740b738368bb9dcced5c3d7c2
+    projectPath: Library\Artifacts\52\527c39b740b738368bb9dcced5c3d7c2
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\52\52b2ee532d439225c16c434c05f6142f
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\52\52b2ee532d439225c16c434c05f6142f
+    projectPath: Library\Artifacts\52\52b2ee532d439225c16c434c05f6142f
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\56\56d34a30c75b12c69593d3b8722cd9e6
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\56\56d34a30c75b12c69593d3b8722cd9e6
+    projectPath: Library\Artifacts\56\56d34a30c75b12c69593d3b8722cd9e6
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\58\5805f3184a182244308e4ebb66450671
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\58\5805f3184a182244308e4ebb66450671
+    projectPath: Library\Artifacts\58\5805f3184a182244308e4ebb66450671
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\5a\5a264524ba95d97905d4f73194e86c75
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\5a\5a264524ba95d97905d4f73194e86c75
+    projectPath: Library\Artifacts\5a\5a264524ba95d97905d4f73194e86c75
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\5a\5a4a9ee4fc0981867ce6bb71c3625474
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\5a\5a4a9ee4fc0981867ce6bb71c3625474
+    projectPath: Library\Artifacts\5a\5a4a9ee4fc0981867ce6bb71c3625474
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\5b\5b0eb981bac5613e4f3e646929a73b94
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\5b\5b0eb981bac5613e4f3e646929a73b94
+    projectPath: Library\Artifacts\5b\5b0eb981bac5613e4f3e646929a73b94
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\5d\5d1a740a61340f8d35ef32274a3bbfdc
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\5d\5d1a740a61340f8d35ef32274a3bbfdc
+    projectPath: Library\Artifacts\5d\5d1a740a61340f8d35ef32274a3bbfdc
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\5e\5e85efa0ed2cc1aee750d86363c6a8d1
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\5e\5e85efa0ed2cc1aee750d86363c6a8d1
+    projectPath: Library\Artifacts\5e\5e85efa0ed2cc1aee750d86363c6a8d1
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\60\60c60d127fd328ed666109ec5a01bc22
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\60\60c60d127fd328ed666109ec5a01bc22
+    projectPath: Library\Artifacts\60\60c60d127fd328ed666109ec5a01bc22
+    originalPath: Library\Artifacts\92\92d939c55e3ee50af11dca491a4c0389
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\64\6476de836e08aa3e70a7ea8c6e071c3f
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\64\6476de836e08aa3e70a7ea8c6e071c3f
+    projectPath: Library\Artifacts\64\6476de836e08aa3e70a7ea8c6e071c3f
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\65\65593d6b82f4362915ef3a2a4051f2a1
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\65\65593d6b82f4362915ef3a2a4051f2a1
+    projectPath: Library\Artifacts\65\65593d6b82f4362915ef3a2a4051f2a1
+    originalPath: Library\Artifacts\4b\4bbbdcf48b33c2ec23b0977218692ed9
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\68\6807263091e2635eb7f4f06465d9343a
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\68\6807263091e2635eb7f4f06465d9343a
+    projectPath: Library\Artifacts\68\6807263091e2635eb7f4f06465d9343a
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\68\68c33e81e4638c58bc5833dd92749beb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\68\68c33e81e4638c58bc5833dd92749beb
+    projectPath: Library\Artifacts\68\68c33e81e4638c58bc5833dd92749beb
+    originalPath: Library\Artifacts\20\2047a5be679f3bd661ce3b54683c1a70
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\6b\6bc6367baede69810c2503e1377c5d78
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\6b\6bc6367baede69810c2503e1377c5d78
+    projectPath: Library\Artifacts\6b\6bc6367baede69810c2503e1377c5d78
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\6e\6eacaa6152a0a74e0acdfba420d1f7ea
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\6e\6eacaa6152a0a74e0acdfba420d1f7ea
+    projectPath: Library\Artifacts\6e\6eacaa6152a0a74e0acdfba420d1f7ea
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\77\7753945a22f819b342cd95a5028319f6
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\77\7753945a22f819b342cd95a5028319f6
+    projectPath: Library\Artifacts\77\7753945a22f819b342cd95a5028319f6
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\77\77db3968a003b4bfb96ba6510dc5ab5e
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\77\77db3968a003b4bfb96ba6510dc5ab5e
+    projectPath: Library\Artifacts\77\77db3968a003b4bfb96ba6510dc5ab5e
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\7f\7f5ff55e3b9a8eb891da92df4cfe3c18
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\7f\7f5ff55e3b9a8eb891da92df4cfe3c18
+    projectPath: Library\Artifacts\7f\7f5ff55e3b9a8eb891da92df4cfe3c18
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\84\84f801ca04eb288564341550d8faf61f
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\84\84f801ca04eb288564341550d8faf61f
+    projectPath: Library\Artifacts\84\84f801ca04eb288564341550d8faf61f
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\85\85fc6b9558f2e87f490d0d705c32c669
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\85\85fc6b9558f2e87f490d0d705c32c669
+    projectPath: Library\Artifacts\85\85fc6b9558f2e87f490d0d705c32c669
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\8a\8a94140cef0a5f9ba79b9f660c1a6865
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\8a\8a94140cef0a5f9ba79b9f660c1a6865
+    projectPath: Library\Artifacts\8a\8a94140cef0a5f9ba79b9f660c1a6865
+    originalPath: Library\Artifacts\da\dabe1c69b10f2f7d53553fd0a3291483
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\93\93e11ef2c642c9d99c7896e5764a0e8c
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\93\93e11ef2c642c9d99c7896e5764a0e8c
+    projectPath: Library\Artifacts\93\93e11ef2c642c9d99c7896e5764a0e8c
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\96\9689726d89a4e86bdb2028f9ae31a6fd
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\96\9689726d89a4e86bdb2028f9ae31a6fd
+    projectPath: Library\Artifacts\96\9689726d89a4e86bdb2028f9ae31a6fd
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\98\983c7f15f0bed64a36d140c10a0718af
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\98\983c7f15f0bed64a36d140c10a0718af
+    projectPath: Library\Artifacts\98\983c7f15f0bed64a36d140c10a0718af
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\a0\a0dd34df5849bc26aff1400f2eafa72e
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\a0\a0dd34df5849bc26aff1400f2eafa72e
+    projectPath: Library\Artifacts\a0\a0dd34df5849bc26aff1400f2eafa72e
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\a7\a79fad4df4380e03f2fbacaad710ca5d
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\a7\a79fad4df4380e03f2fbacaad710ca5d
+    projectPath: Library\Artifacts\a7\a79fad4df4380e03f2fbacaad710ca5d
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\a8\a8e717ab00673a5590bda79815b732fa
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\a8\a8e717ab00673a5590bda79815b732fa
+    projectPath: Library\Artifacts\a8\a8e717ab00673a5590bda79815b732fa
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\af\af2d253668d965d2a0cc78fc30d255a6
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\af\af2d253668d965d2a0cc78fc30d255a6
+    projectPath: Library\Artifacts\af\af2d253668d965d2a0cc78fc30d255a6
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\b0\b038699656a1f5df6e5a0d7ca7c17e8c
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\b0\b038699656a1f5df6e5a0d7ca7c17e8c
+    projectPath: Library\Artifacts\b0\b038699656a1f5df6e5a0d7ca7c17e8c
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\b4\b4590979cd108f6ed5ed15f879859a56
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\b4\b4590979cd108f6ed5ed15f879859a56
+    projectPath: Library\Artifacts\b4\b4590979cd108f6ed5ed15f879859a56
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\bd\bd896be078194d61dd6b2775a8500052
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\bd\bd896be078194d61dd6b2775a8500052
+    projectPath: Library\Artifacts\bd\bd896be078194d61dd6b2775a8500052
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\bd\bd8de44c0bf4aabbd0430c8649af916b
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\bd\bd8de44c0bf4aabbd0430c8649af916b
+    projectPath: Library\Artifacts\bd\bd8de44c0bf4aabbd0430c8649af916b
+    originalPath: Library\Artifacts\de\de6b841e35d09407faf259dc76ff2df3
+    indexStatus: 6
+    workTreeStatus: 0
+  - path: Library\Artifacts\c1\c13c1473b0b4033cfbdbfa5fab864f8f
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\c1\c13c1473b0b4033cfbdbfa5fab864f8f
+    projectPath: Library\Artifacts\c1\c13c1473b0b4033cfbdbfa5fab864f8f
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\c1\c1aead4d59ccf95872f2e658c228790a
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\c1\c1aead4d59ccf95872f2e658c228790a
+    projectPath: Library\Artifacts\c1\c1aead4d59ccf95872f2e658c228790a
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\d4\d442161254d026a9b3e016a153a08396
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\d4\d442161254d026a9b3e016a153a08396
+    projectPath: Library\Artifacts\d4\d442161254d026a9b3e016a153a08396
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\d4\d47911a5fd01800390e75f6abad162fd
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\d4\d47911a5fd01800390e75f6abad162fd
+    projectPath: Library\Artifacts\d4\d47911a5fd01800390e75f6abad162fd
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\e7\e7c76663bdce921b40a860596b591979
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\e7\e7c76663bdce921b40a860596b591979
+    projectPath: Library\Artifacts\e7\e7c76663bdce921b40a860596b591979
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\ed\edc3445768dacd28d8fcedeed66cdfc2
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\ed\edc3445768dacd28d8fcedeed66cdfc2
+    projectPath: Library\Artifacts\ed\edc3445768dacd28d8fcedeed66cdfc2
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\f5\f5159956f77146b74b7bfd9e415e4df9
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\f5\f5159956f77146b74b7bfd9e415e4df9
+    projectPath: Library\Artifacts\f5\f5159956f77146b74b7bfd9e415e4df9
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\f7\f7f6f491f6b726e76c3bb74aef8b955c
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\f7\f7f6f491f6b726e76c3bb74aef8b955c
+    projectPath: Library\Artifacts\f7\f7f6f491f6b726e76c3bb74aef8b955c
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\fb\fb0557ec94a59ea4c900875c4326d660
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\fb\fb0557ec94a59ea4c900875c4326d660
+    projectPath: Library\Artifacts\fb\fb0557ec94a59ea4c900875c4326d660
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\Artifacts\fc\fc9f8b5e2ca676fc5e62c4846bef2d46
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\fc\fc9f8b5e2ca676fc5e62c4846bef2d46
+    projectPath: Library\Artifacts\fc\fc9f8b5e2ca676fc5e62c4846bef2d46
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\Artifacts\fd\fd8d2160b1544321babc1708b747bec7
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\Artifacts\fd\fd8d2160b1544321babc1708b747bec7
+    projectPath: Library\Artifacts\fd\fd8d2160b1544321babc1708b747bec7
+    originalPath: 
+    indexStatus: 5
+    workTreeStatus: 0
+  - path: Library\CurrentLayout-default.dwlt
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\EditorInstance.json
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\EditorInstance.json
+    projectPath: Library\EditorInstance.json
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 0
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\gfu\cache\gitlocks.yaml
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\gfu\cache\gitlog.yaml
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\gfu\cache\gitstatusentries.yaml
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\gfu\cache\gittrackingstatus.yaml
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\gfu\cache\repoinfo.yaml
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PackageCache\com.unity.ide.vscode@1.2.3\package.json
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\PackageCache\com.unity.ide.vscode@1.2.3\package.json
+    projectPath: Library\PackageCache\com.unity.ide.vscode@1.2.3\package.json
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\SceneVisibilityState.asset
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\SceneVisibilityState.asset
+    projectPath: Library\SceneVisibilityState.asset
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Assembly-CSharp.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.Timeline.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\ShaderCache\0\00a755be19f3bd43165d4e812a0cc7dc.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\00a755be19f3bd43165d4e812a0cc7dc.bin
+    projectPath: Library\ShaderCache\0\00a755be19f3bd43165d4e812a0cc7dc.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\02152a104ff0a6039d0b68e2d4414070.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\02152a104ff0a6039d0b68e2d4414070.bin
+    projectPath: Library\ShaderCache\0\02152a104ff0a6039d0b68e2d4414070.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\0362fc72538cd89d3d3188901d148417.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\0362fc72538cd89d3d3188901d148417.bin
+    projectPath: Library\ShaderCache\0\0362fc72538cd89d3d3188901d148417.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\049e4dfa9bf433b8729d896e7ea3a51e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\049e4dfa9bf433b8729d896e7ea3a51e.bin
+    projectPath: Library\ShaderCache\0\049e4dfa9bf433b8729d896e7ea3a51e.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\053fa3b2ab60832b1f82f4ace2dc7513.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\053fa3b2ab60832b1f82f4ace2dc7513.bin
+    projectPath: Library\ShaderCache\0\053fa3b2ab60832b1f82f4ace2dc7513.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\05736b92e485a10f9413e3612af39b4b.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\05736b92e485a10f9413e3612af39b4b.bin
+    projectPath: Library\ShaderCache\0\05736b92e485a10f9413e3612af39b4b.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\06284a393b58afe9cf66143b8c26bcdf.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\06284a393b58afe9cf66143b8c26bcdf.bin
+    projectPath: Library\ShaderCache\0\06284a393b58afe9cf66143b8c26bcdf.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\097fcab91103a5c230ec48e9ed8c0cba.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\097fcab91103a5c230ec48e9ed8c0cba.bin
+    projectPath: Library\ShaderCache\0\097fcab91103a5c230ec48e9ed8c0cba.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\0c810c1f43767c122f51f4a1727f244d.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\0c810c1f43767c122f51f4a1727f244d.bin
+    projectPath: Library\ShaderCache\0\0c810c1f43767c122f51f4a1727f244d.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\0d1a67d27e925e59a2d34a90adee6600.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\0d1a67d27e925e59a2d34a90adee6600.bin
+    projectPath: Library\ShaderCache\0\0d1a67d27e925e59a2d34a90adee6600.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\0f7773a2b934b729320ab5b7a40a4ad4.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\0f7773a2b934b729320ab5b7a40a4ad4.bin
+    projectPath: Library\ShaderCache\0\0f7773a2b934b729320ab5b7a40a4ad4.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\0\0fafb681d78d7b0c0210249c2d3ffea7.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\0\0fafb681d78d7b0c0210249c2d3ffea7.bin
+    projectPath: Library\ShaderCache\0\0fafb681d78d7b0c0210249c2d3ffea7.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1069bb4bfbdbbea32baca8d43490a0a2.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1069bb4bfbdbbea32baca8d43490a0a2.bin
+    projectPath: Library\ShaderCache\1\1069bb4bfbdbbea32baca8d43490a0a2.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\10f79ce88b4f29e5d9de023704f854e0.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\10f79ce88b4f29e5d9de023704f854e0.bin
+    projectPath: Library\ShaderCache\1\10f79ce88b4f29e5d9de023704f854e0.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\113a3e116b947c792f521d4388e0ccfb.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\113a3e116b947c792f521d4388e0ccfb.bin
+    projectPath: Library\ShaderCache\1\113a3e116b947c792f521d4388e0ccfb.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1233d39cb727576c26dfe095d5ceb296.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1233d39cb727576c26dfe095d5ceb296.bin
+    projectPath: Library\ShaderCache\1\1233d39cb727576c26dfe095d5ceb296.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1251356ca65b967a144ba9d1c8f47fc9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1251356ca65b967a144ba9d1c8f47fc9.bin
+    projectPath: Library\ShaderCache\1\1251356ca65b967a144ba9d1c8f47fc9.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\12aadaca3f0717d0da7e75ccf0758407.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\12aadaca3f0717d0da7e75ccf0758407.bin
+    projectPath: Library\ShaderCache\1\12aadaca3f0717d0da7e75ccf0758407.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\13240ed54142c82f9f4ac1c4b1ae192a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\13240ed54142c82f9f4ac1c4b1ae192a.bin
+    projectPath: Library\ShaderCache\1\13240ed54142c82f9f4ac1c4b1ae192a.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\14786a8b317ef41f2c338dd5b673ba78.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\14786a8b317ef41f2c338dd5b673ba78.bin
+    projectPath: Library\ShaderCache\1\14786a8b317ef41f2c338dd5b673ba78.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\15e5f3f856836fdd5ce35f02fc24549b.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\15e5f3f856836fdd5ce35f02fc24549b.bin
+    projectPath: Library\ShaderCache\1\15e5f3f856836fdd5ce35f02fc24549b.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\16bd2bce225db2fdacf5e5b26ca9f889.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\16bd2bce225db2fdacf5e5b26ca9f889.bin
+    projectPath: Library\ShaderCache\1\16bd2bce225db2fdacf5e5b26ca9f889.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\16e1ca113fdf5c3e138a7a78f3d0e90e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\16e1ca113fdf5c3e138a7a78f3d0e90e.bin
+    projectPath: Library\ShaderCache\1\16e1ca113fdf5c3e138a7a78f3d0e90e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\196a0e8eb8688772dc6fb85c0698b7e1.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\196a0e8eb8688772dc6fb85c0698b7e1.bin
+    projectPath: Library\ShaderCache\1\196a0e8eb8688772dc6fb85c0698b7e1.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1af379929ddc236f0a6cb30c39a99905.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1af379929ddc236f0a6cb30c39a99905.bin
+    projectPath: Library\ShaderCache\1\1af379929ddc236f0a6cb30c39a99905.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1b44efe465ac931b90a2030607d5de84.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1b44efe465ac931b90a2030607d5de84.bin
+    projectPath: Library\ShaderCache\1\1b44efe465ac931b90a2030607d5de84.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1ba938d8b5a699d73ffd1e17e8c7722a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1ba938d8b5a699d73ffd1e17e8c7722a.bin
+    projectPath: Library\ShaderCache\1\1ba938d8b5a699d73ffd1e17e8c7722a.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1d22a97ed6232cbd834b039be4d1a365.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1d22a97ed6232cbd834b039be4d1a365.bin
+    projectPath: Library\ShaderCache\1\1d22a97ed6232cbd834b039be4d1a365.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1d559704ed618ca73356b342ff6726cc.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1d559704ed618ca73356b342ff6726cc.bin
+    projectPath: Library\ShaderCache\1\1d559704ed618ca73356b342ff6726cc.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\1\1ed1f0558ccaa545f769d419e6e71bf0.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\1\1ed1f0558ccaa545f769d419e6e71bf0.bin
+    projectPath: Library\ShaderCache\1\1ed1f0558ccaa545f769d419e6e71bf0.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\226afd46fa86227b27d538473422eedf.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\226afd46fa86227b27d538473422eedf.bin
+    projectPath: Library\ShaderCache\2\226afd46fa86227b27d538473422eedf.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\226d3ce0d5b6d254ceeca45b9c75088d.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\226d3ce0d5b6d254ceeca45b9c75088d.bin
+    projectPath: Library\ShaderCache\2\226d3ce0d5b6d254ceeca45b9c75088d.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\2320152ad3f569678e9802462d6646ab.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\2320152ad3f569678e9802462d6646ab.bin
+    projectPath: Library\ShaderCache\2\2320152ad3f569678e9802462d6646ab.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\242953b2573a6b16b823289bd9800908.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\242953b2573a6b16b823289bd9800908.bin
+    projectPath: Library\ShaderCache\2\242953b2573a6b16b823289bd9800908.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\24f105018f144d464b29851990851e3a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\24f105018f144d464b29851990851e3a.bin
+    projectPath: Library\ShaderCache\2\24f105018f144d464b29851990851e3a.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\254f7c0e3788b00a3ecf5ff455ad4ec2.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\254f7c0e3788b00a3ecf5ff455ad4ec2.bin
+    projectPath: Library\ShaderCache\2\254f7c0e3788b00a3ecf5ff455ad4ec2.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\28a17bada9550fbfe836a7c0d4389ff7.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\28a17bada9550fbfe836a7c0d4389ff7.bin
+    projectPath: Library\ShaderCache\2\28a17bada9550fbfe836a7c0d4389ff7.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\2\2c7ef33829483d0d3ba42571822760cb.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\2\2c7ef33829483d0d3ba42571822760cb.bin
+    projectPath: Library\ShaderCache\2\2c7ef33829483d0d3ba42571822760cb.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\302b49bec55907f51abc4785f28f3a4d.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\302b49bec55907f51abc4785f28f3a4d.bin
+    projectPath: Library\ShaderCache\3\302b49bec55907f51abc4785f28f3a4d.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\30ca8c4799180aabedd8c91c286d05b9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\30ca8c4799180aabedd8c91c286d05b9.bin
+    projectPath: Library\ShaderCache\3\30ca8c4799180aabedd8c91c286d05b9.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\33f29b1ad250a5c9e9019152d9d84adc.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\33f29b1ad250a5c9e9019152d9d84adc.bin
+    projectPath: Library\ShaderCache\3\33f29b1ad250a5c9e9019152d9d84adc.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\362955d2250c1dd5ce861a1c4c8d7457.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\362955d2250c1dd5ce861a1c4c8d7457.bin
+    projectPath: Library\ShaderCache\3\362955d2250c1dd5ce861a1c4c8d7457.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\372d36cc17d1d9c5d381adb913ead298.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\372d36cc17d1d9c5d381adb913ead298.bin
+    projectPath: Library\ShaderCache\3\372d36cc17d1d9c5d381adb913ead298.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\373b7c46901e982efb10a5e0271684a9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\373b7c46901e982efb10a5e0271684a9.bin
+    projectPath: Library\ShaderCache\3\373b7c46901e982efb10a5e0271684a9.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\3\3ff33deac51a85f3d533c5ac3227da5a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\3\3ff33deac51a85f3d533c5ac3227da5a.bin
+    projectPath: Library\ShaderCache\3\3ff33deac51a85f3d533c5ac3227da5a.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\409cdcf700121b4e66c04b8ed84c5cf9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\409cdcf700121b4e66c04b8ed84c5cf9.bin
+    projectPath: Library\ShaderCache\4\409cdcf700121b4e66c04b8ed84c5cf9.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\41234ea905c6fa99cbd84161710a5772.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\41234ea905c6fa99cbd84161710a5772.bin
+    projectPath: Library\ShaderCache\4\41234ea905c6fa99cbd84161710a5772.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\41bc78062b867ecd00e6c638d4ded7fb.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\41bc78062b867ecd00e6c638d4ded7fb.bin
+    projectPath: Library\ShaderCache\4\41bc78062b867ecd00e6c638d4ded7fb.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\432dfac6d291259b5449d81435c28bc6.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\432dfac6d291259b5449d81435c28bc6.bin
+    projectPath: Library\ShaderCache\4\432dfac6d291259b5449d81435c28bc6.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\43ba96ceab4c8b7afcf26ebbb740c547.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\43ba96ceab4c8b7afcf26ebbb740c547.bin
+    projectPath: Library\ShaderCache\4\43ba96ceab4c8b7afcf26ebbb740c547.bin
+    originalPath: 
+    indexStatus: 4
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\4634ab86234063f955c2eb982440175e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\4634ab86234063f955c2eb982440175e.bin
+    projectPath: Library\ShaderCache\4\4634ab86234063f955c2eb982440175e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\4b62ae7aa98f39b4ccd4f09f9c3d3836.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\4b62ae7aa98f39b4ccd4f09f9c3d3836.bin
+    projectPath: Library\ShaderCache\4\4b62ae7aa98f39b4ccd4f09f9c3d3836.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\4c54d4d72b5aef545f0ad19bb6e66f1a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\4c54d4d72b5aef545f0ad19bb6e66f1a.bin
+    projectPath: Library\ShaderCache\4\4c54d4d72b5aef545f0ad19bb6e66f1a.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\4daa507898088e9e84689ffabab33354.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\4daa507898088e9e84689ffabab33354.bin
+    projectPath: Library\ShaderCache\4\4daa507898088e9e84689ffabab33354.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\4\4efc48a8886a90990750df16470b5a7d.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\4\4efc48a8886a90990750df16470b5a7d.bin
+    projectPath: Library\ShaderCache\4\4efc48a8886a90990750df16470b5a7d.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\5076642edea88e0678e6b6b4ac1b1ec0.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\5076642edea88e0678e6b6b4ac1b1ec0.bin
+    projectPath: Library\ShaderCache\5\5076642edea88e0678e6b6b4ac1b1ec0.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\51706913b98f9e400378b9a93da7eddd.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\51706913b98f9e400378b9a93da7eddd.bin
+    projectPath: Library\ShaderCache\5\51706913b98f9e400378b9a93da7eddd.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\52d096f0aec64324c615515702fe359e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\52d096f0aec64324c615515702fe359e.bin
+    projectPath: Library\ShaderCache\5\52d096f0aec64324c615515702fe359e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\54e4406e89a6466d129a8c28f20335a9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\54e4406e89a6466d129a8c28f20335a9.bin
+    projectPath: Library\ShaderCache\5\54e4406e89a6466d129a8c28f20335a9.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\55422821976dd0a386c04eb9f69a2aaa.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\55422821976dd0a386c04eb9f69a2aaa.bin
+    projectPath: Library\ShaderCache\5\55422821976dd0a386c04eb9f69a2aaa.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\59a9bb04a55efde44ad45456d0be496e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\59a9bb04a55efde44ad45456d0be496e.bin
+    projectPath: Library\ShaderCache\5\59a9bb04a55efde44ad45456d0be496e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\5\5f8e68283fb3d35a96354df293b04eb9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\5\5f8e68283fb3d35a96354df293b04eb9.bin
+    projectPath: Library\ShaderCache\5\5f8e68283fb3d35a96354df293b04eb9.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\60a27bc37c309f7eaade4515bdef9315.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\60a27bc37c309f7eaade4515bdef9315.bin
+    projectPath: Library\ShaderCache\6\60a27bc37c309f7eaade4515bdef9315.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\6126b02f353de9455642b662a8a0391a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\6126b02f353de9455642b662a8a0391a.bin
+    projectPath: Library\ShaderCache\6\6126b02f353de9455642b662a8a0391a.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\61dec3982ec041645b6fc0f7f57d0d14.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\61dec3982ec041645b6fc0f7f57d0d14.bin
+    projectPath: Library\ShaderCache\6\61dec3982ec041645b6fc0f7f57d0d14.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\63370001ab387eb93cc72be116e39e08.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\63370001ab387eb93cc72be116e39e08.bin
+    projectPath: Library\ShaderCache\6\63370001ab387eb93cc72be116e39e08.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\63e013a814f42bc4f02b65e5c5bc5c31.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\63e013a814f42bc4f02b65e5c5bc5c31.bin
+    projectPath: Library\ShaderCache\6\63e013a814f42bc4f02b65e5c5bc5c31.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\6412a0f881dd8cbe3fd2864be361afbb.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\6412a0f881dd8cbe3fd2864be361afbb.bin
+    projectPath: Library\ShaderCache\6\6412a0f881dd8cbe3fd2864be361afbb.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\6bb080b1d2b7043e32383b7c3f28d741.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\6bb080b1d2b7043e32383b7c3f28d741.bin
+    projectPath: Library\ShaderCache\6\6bb080b1d2b7043e32383b7c3f28d741.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\6\6db6e3f74385b552d402dc37039ff41e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\6\6db6e3f74385b552d402dc37039ff41e.bin
+    projectPath: Library\ShaderCache\6\6db6e3f74385b552d402dc37039ff41e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\7\76108d662b06d0d52e71c98e72abaaa7.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\7\76108d662b06d0d52e71c98e72abaaa7.bin
+    projectPath: Library\ShaderCache\7\76108d662b06d0d52e71c98e72abaaa7.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\7\7692b6dd5c631610ddfed9daa0cb27c2.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\7\7692b6dd5c631610ddfed9daa0cb27c2.bin
+    projectPath: Library\ShaderCache\7\7692b6dd5c631610ddfed9daa0cb27c2.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\7\76afd04aa9a4230621c0030a294e1a40.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\7\76afd04aa9a4230621c0030a294e1a40.bin
+    projectPath: Library\ShaderCache\7\76afd04aa9a4230621c0030a294e1a40.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\7\7adc3faf111eeca5e75748a575a83104.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\7\7adc3faf111eeca5e75748a575a83104.bin
+    projectPath: Library\ShaderCache\7\7adc3faf111eeca5e75748a575a83104.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\816a6cb973118547c3ff429084b344dd.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\816a6cb973118547c3ff429084b344dd.bin
+    projectPath: Library\ShaderCache\8\816a6cb973118547c3ff429084b344dd.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\830f1a564decf13a3836196c739dbac4.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\830f1a564decf13a3836196c739dbac4.bin
+    projectPath: Library\ShaderCache\8\830f1a564decf13a3836196c739dbac4.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\8484f48eb6d3035e272ca1333bc19283.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\8484f48eb6d3035e272ca1333bc19283.bin
+    projectPath: Library\ShaderCache\8\8484f48eb6d3035e272ca1333bc19283.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\868ba014175a18676939169b49c72202.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\868ba014175a18676939169b49c72202.bin
+    projectPath: Library\ShaderCache\8\868ba014175a18676939169b49c72202.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\87eabe7cedc0d69ed9b070b225be4a7e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\87eabe7cedc0d69ed9b070b225be4a7e.bin
+    projectPath: Library\ShaderCache\8\87eabe7cedc0d69ed9b070b225be4a7e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\888e6fb1b4927ccbe84557eee26fdb3c.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\888e6fb1b4927ccbe84557eee26fdb3c.bin
+    projectPath: Library\ShaderCache\8\888e6fb1b4927ccbe84557eee26fdb3c.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\8aa9fece800068e86353caba4580160a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\8aa9fece800068e86353caba4580160a.bin
+    projectPath: Library\ShaderCache\8\8aa9fece800068e86353caba4580160a.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\8\8f3fdb23a614a4d022f5a13c88f1b9e6.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\8\8f3fdb23a614a4d022f5a13c88f1b9e6.bin
+    projectPath: Library\ShaderCache\8\8f3fdb23a614a4d022f5a13c88f1b9e6.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\905ea71563d68adcbab14811bc1ad863.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\905ea71563d68adcbab14811bc1ad863.bin
+    projectPath: Library\ShaderCache\9\905ea71563d68adcbab14811bc1ad863.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\9072620c4c2e2fc9855ba12bebbdf7fe.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\9072620c4c2e2fc9855ba12bebbdf7fe.bin
+    projectPath: Library\ShaderCache\9\9072620c4c2e2fc9855ba12bebbdf7fe.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\93a36615f0840c8a1148ff0c0b80ac15.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\93a36615f0840c8a1148ff0c0b80ac15.bin
+    projectPath: Library\ShaderCache\9\93a36615f0840c8a1148ff0c0b80ac15.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\9446532e80019071b7db1a094226d0ac.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\9446532e80019071b7db1a094226d0ac.bin
+    projectPath: Library\ShaderCache\9\9446532e80019071b7db1a094226d0ac.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\961433b13fd6bc308b05e5541eb7d505.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\961433b13fd6bc308b05e5541eb7d505.bin
+    projectPath: Library\ShaderCache\9\961433b13fd6bc308b05e5541eb7d505.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\977af53111f9717d1b5c428b36750f8b.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\977af53111f9717d1b5c428b36750f8b.bin
+    projectPath: Library\ShaderCache\9\977af53111f9717d1b5c428b36750f8b.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\9a41aa93f0635bd255d73c33fd9d1420.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\9a41aa93f0635bd255d73c33fd9d1420.bin
+    projectPath: Library\ShaderCache\9\9a41aa93f0635bd255d73c33fd9d1420.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\9b29d11218b3044b8b66764adc442f59.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\9b29d11218b3044b8b66764adc442f59.bin
+    projectPath: Library\ShaderCache\9\9b29d11218b3044b8b66764adc442f59.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\9\9b7232b4e36506c146a75daa3d5065b2.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\9\9b7232b4e36506c146a75daa3d5065b2.bin
+    projectPath: Library\ShaderCache\9\9b7232b4e36506c146a75daa3d5065b2.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\a14ce9045f874adbb11395c66090c091.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\a14ce9045f874adbb11395c66090c091.bin
+    projectPath: Library\ShaderCache\a\a14ce9045f874adbb11395c66090c091.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\a1ecb3cfb81411233637edb4aecdb7a8.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\a1ecb3cfb81411233637edb4aecdb7a8.bin
+    projectPath: Library\ShaderCache\a\a1ecb3cfb81411233637edb4aecdb7a8.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\a2c47bb8bbb8b2dcb250f865f9168509.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\a2c47bb8bbb8b2dcb250f865f9168509.bin
+    projectPath: Library\ShaderCache\a\a2c47bb8bbb8b2dcb250f865f9168509.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\a62a6f81a8ae01d56a8ee6e73fdec873.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\a62a6f81a8ae01d56a8ee6e73fdec873.bin
+    projectPath: Library\ShaderCache\a\a62a6f81a8ae01d56a8ee6e73fdec873.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\a69f6406bead116cbae82e56417a336b.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\a69f6406bead116cbae82e56417a336b.bin
+    projectPath: Library\ShaderCache\a\a69f6406bead116cbae82e56417a336b.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\a6f86e7b22db834cb3f6ea84fafe9eba.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\a6f86e7b22db834cb3f6ea84fafe9eba.bin
+    projectPath: Library\ShaderCache\a\a6f86e7b22db834cb3f6ea84fafe9eba.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\aa79b703a87d43d10d98a1f68abb724f.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\aa79b703a87d43d10d98a1f68abb724f.bin
+    projectPath: Library\ShaderCache\a\aa79b703a87d43d10d98a1f68abb724f.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\aad90d76c2368989cc14ea873ab0ce52.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\aad90d76c2368989cc14ea873ab0ce52.bin
+    projectPath: Library\ShaderCache\a\aad90d76c2368989cc14ea873ab0ce52.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\ae73dd736bf790ffafb261e3692989eb.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\ae73dd736bf790ffafb261e3692989eb.bin
+    projectPath: Library\ShaderCache\a\ae73dd736bf790ffafb261e3692989eb.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\a\afb5cf39d10124770cf8af99c60b43e7.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\a\afb5cf39d10124770cf8af99c60b43e7.bin
+    projectPath: Library\ShaderCache\a\afb5cf39d10124770cf8af99c60b43e7.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\b12d2f85efc0a91cec074818854368a3.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\b12d2f85efc0a91cec074818854368a3.bin
+    projectPath: Library\ShaderCache\b\b12d2f85efc0a91cec074818854368a3.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\b3a1a5a4949bd22f2e4ddedd9c90d81a.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\b3a1a5a4949bd22f2e4ddedd9c90d81a.bin
+    projectPath: Library\ShaderCache\b\b3a1a5a4949bd22f2e4ddedd9c90d81a.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\b860e6dfbb359952afc3e1412040df45.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\b860e6dfbb359952afc3e1412040df45.bin
+    projectPath: Library\ShaderCache\b\b860e6dfbb359952afc3e1412040df45.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\ba3756a808ebc5554af4dd6736bed5dd.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\ba3756a808ebc5554af4dd6736bed5dd.bin
+    projectPath: Library\ShaderCache\b\ba3756a808ebc5554af4dd6736bed5dd.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\bc3e89c67992da2c31602871eb62dec9.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\bc3e89c67992da2c31602871eb62dec9.bin
+    projectPath: Library\ShaderCache\b\bc3e89c67992da2c31602871eb62dec9.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\bca5f640d34a514c6220c31561eb94f5.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\bca5f640d34a514c6220c31561eb94f5.bin
+    projectPath: Library\ShaderCache\b\bca5f640d34a514c6220c31561eb94f5.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\b\bf1758ca9dfae65899b221f8444c5ae5.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\b\bf1758ca9dfae65899b221f8444c5ae5.bin
+    projectPath: Library\ShaderCache\b\bf1758ca9dfae65899b221f8444c5ae5.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\c\c1112d1b54611e0a13a3cb9f94902c77.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\c\c1112d1b54611e0a13a3cb9f94902c77.bin
+    projectPath: Library\ShaderCache\c\c1112d1b54611e0a13a3cb9f94902c77.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\c\c159742272beba44eb77cbc28ed95d06.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\c\c159742272beba44eb77cbc28ed95d06.bin
+    projectPath: Library\ShaderCache\c\c159742272beba44eb77cbc28ed95d06.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\c\c313cc7cd59466accde7ad768b2bcfb3.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\c\c313cc7cd59466accde7ad768b2bcfb3.bin
+    projectPath: Library\ShaderCache\c\c313cc7cd59466accde7ad768b2bcfb3.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\c\cdf27357de06e899ba59e882fff89e8f.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\c\cdf27357de06e899ba59e882fff89e8f.bin
+    projectPath: Library\ShaderCache\c\cdf27357de06e899ba59e882fff89e8f.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d0e46764f3377fd65a6208e58e1e1591.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d0e46764f3377fd65a6208e58e1e1591.bin
+    projectPath: Library\ShaderCache\d\d0e46764f3377fd65a6208e58e1e1591.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d189f6e2a0e1bc1a1be7eb6f7089d113.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d189f6e2a0e1bc1a1be7eb6f7089d113.bin
+    projectPath: Library\ShaderCache\d\d189f6e2a0e1bc1a1be7eb6f7089d113.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d1f98cd733ba2af58a9e1171fe9428da.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d1f98cd733ba2af58a9e1171fe9428da.bin
+    projectPath: Library\ShaderCache\d\d1f98cd733ba2af58a9e1171fe9428da.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d2dd454afca832dadbfe0357e3959915.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d2dd454afca832dadbfe0357e3959915.bin
+    projectPath: Library\ShaderCache\d\d2dd454afca832dadbfe0357e3959915.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d30234faea8e61ad9276fcb67364b892.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d30234faea8e61ad9276fcb67364b892.bin
+    projectPath: Library\ShaderCache\d\d30234faea8e61ad9276fcb67364b892.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d48f4c83382756f8daf6a0cc902759e0.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d48f4c83382756f8daf6a0cc902759e0.bin
+    projectPath: Library\ShaderCache\d\d48f4c83382756f8daf6a0cc902759e0.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d7ac45af78be97d2eb2e3a7c4c18cd01.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d7ac45af78be97d2eb2e3a7c4c18cd01.bin
+    projectPath: Library\ShaderCache\d\d7ac45af78be97d2eb2e3a7c4c18cd01.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d7d9c4a01feb18ed368fbebe16ce711c.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d7d9c4a01feb18ed368fbebe16ce711c.bin
+    projectPath: Library\ShaderCache\d\d7d9c4a01feb18ed368fbebe16ce711c.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d8d3d9791032371b064631e861fce97e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d8d3d9791032371b064631e861fce97e.bin
+    projectPath: Library\ShaderCache\d\d8d3d9791032371b064631e861fce97e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\d9e23dbe741fa2d40dd7b0cdbc0c7571.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\d9e23dbe741fa2d40dd7b0cdbc0c7571.bin
+    projectPath: Library\ShaderCache\d\d9e23dbe741fa2d40dd7b0cdbc0c7571.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\db8ecbbcff5ef592d32772fbe3697d91.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\db8ecbbcff5ef592d32772fbe3697d91.bin
+    projectPath: Library\ShaderCache\d\db8ecbbcff5ef592d32772fbe3697d91.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\dd73a01bd975026738b7c3302f474c5d.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\dd73a01bd975026738b7c3302f474c5d.bin
+    projectPath: Library\ShaderCache\d\dd73a01bd975026738b7c3302f474c5d.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\dddb7ca396cd3fb08acd583edac5a873.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\dddb7ca396cd3fb08acd583edac5a873.bin
+    projectPath: Library\ShaderCache\d\dddb7ca396cd3fb08acd583edac5a873.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\d\df2968049c0b934c16f336f4b0bd6e2d.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\d\df2968049c0b934c16f336f4b0bd6e2d.bin
+    projectPath: Library\ShaderCache\d\df2968049c0b934c16f336f4b0bd6e2d.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\e\e474f64eb6db5e485e5d720d72bf3293.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\e\e474f64eb6db5e485e5d720d72bf3293.bin
+    projectPath: Library\ShaderCache\e\e474f64eb6db5e485e5d720d72bf3293.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\e\e77603a1dbaac1a434ab9a8860d55146.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\e\e77603a1dbaac1a434ab9a8860d55146.bin
+    projectPath: Library\ShaderCache\e\e77603a1dbaac1a434ab9a8860d55146.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\e\e8d8cb52eecba6462147507f8b7058a0.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\e\e8d8cb52eecba6462147507f8b7058a0.bin
+    projectPath: Library\ShaderCache\e\e8d8cb52eecba6462147507f8b7058a0.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\e\ea1cc508b512906e8ce8ca0d1eeffbbe.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\e\ea1cc508b512906e8ce8ca0d1eeffbbe.bin
+    projectPath: Library\ShaderCache\e\ea1cc508b512906e8ce8ca0d1eeffbbe.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\e\ebc39563c7e55e7c87abd4987eb49ddc.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\e\ebc39563c7e55e7c87abd4987eb49ddc.bin
+    projectPath: Library\ShaderCache\e\ebc39563c7e55e7c87abd4987eb49ddc.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\e\ec59231cfe89d73e1a6a1f3ca925ac5c.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\e\ec59231cfe89d73e1a6a1f3ca925ac5c.bin
+    projectPath: Library\ShaderCache\e\ec59231cfe89d73e1a6a1f3ca925ac5c.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\f\f2c69d289360b9575e0aa212e676ce3e.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\f\f2c69d289360b9575e0aa212e676ce3e.bin
+    projectPath: Library\ShaderCache\f\f2c69d289360b9575e0aa212e676ce3e.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\f\f730358ef671aa7855735da987704484.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\f\f730358ef671aa7855735da987704484.bin
+    projectPath: Library\ShaderCache\f\f730358ef671aa7855735da987704484.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\f\f9cb9ae26d587bc14c45cd0affa20e8f.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\f\f9cb9ae26d587bc14c45cd0affa20e8f.bin
+    projectPath: Library\ShaderCache\f\f9cb9ae26d587bc14c45cd0affa20e8f.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\f\fb50467bb686a98d9548d017057fa80c.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\f\fb50467bb686a98d9548d017057fa80c.bin
+    projectPath: Library\ShaderCache\f\fb50467bb686a98d9548d017057fa80c.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ShaderCache\f\ffce5d557339c9e6dba6aaa287826eed.bin
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\ShaderCache\f\ffce5d557339c9e6dba6aaa287826eed.bin
+    projectPath: Library\ShaderCache\f\ffce5d557339c9e6dba6aaa287826eed.bin
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe6.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler.exe7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe7.log
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler0.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler1.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler2.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler3.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler3.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler4.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler4.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler4.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler5.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler5.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler5.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler6.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler6.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler6.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\shadercompiler-UnityShaderCompiler7.log
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\shadercompiler-UnityShaderCompiler7.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler7.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\SourceAssetDB
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\SourceAssetDB
+    projectPath: Library\SourceAssetDB
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 3
+  - path: Library\SourceAssetDB-lock
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\SourceAssetDB-lock
+    projectPath: Library\SourceAssetDB-lock
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\StateCache\Hierarchy\fd41a9-mainStage.json
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\StateCache\Hierarchy\fd41a9-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\fd41a9-mainStage.json
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Library\StateCache\SceneView\13423a-mainStage.json
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Library\StateCache\SceneView\13423a-mainStage.json
+    projectPath: Library\StateCache\SceneView\13423a-mainStage.json
+    originalPath: 
+    indexStatus: 3
+    workTreeStatus: 0
+  - path: Temp\UnityLockfile
+    fullPath: C:\Users\julie\Documents\Apollon\Apollon_game\Temp\UnityLockfile
+    projectPath: Temp\UnityLockfile
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
