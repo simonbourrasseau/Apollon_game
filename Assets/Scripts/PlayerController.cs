@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        float horizontal = -Input.GetAxis("Horizontal");
+        float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
        
 
@@ -52,12 +52,12 @@ public class PlayerController : MonoBehaviour
 
 
 
-        if(Input.GetKeyDown(KeyCode.DownArrow) && layers < 1) 
+        if(Input.GetKeyDown(KeyCode.UpArrow) && layers < 3) 
         { 
         characterController.Move(Vector3.forward * distance); 
         layers+= 1;
         }    
-        else if(Input.GetKeyDown(KeyCode.UpArrow) && layers > -1) 
+        else if(Input.GetKeyDown(KeyCode.DownArrow) && layers > 1) 
         { 
         characterController.Move(-Vector3.forward * distance); 
         layers--; 
