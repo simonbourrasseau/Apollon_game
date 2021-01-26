@@ -52,20 +52,12 @@ public class PlayerController : MonoBehaviour
 
 
 
-<<<<<<< HEAD:Assets/scripts/PlayerController.cs
         if(Input.GetKeyDown(KeyCode.DownArrow) && layers < 1) 
-=======
-        if(Input.GetKeyDown(KeyCode.UpArrow) && layers < 3) 
->>>>>>> Simon:Assets/Scripts/PlayerController.cs
         { 
         characterController.Move(Vector3.forward * distance); 
         layers+= 1;
         }    
-<<<<<<< HEAD:Assets/scripts/PlayerController.cs
         else if(Input.GetKeyDown(KeyCode.UpArrow) && layers > -1) 
-=======
-        else if(Input.GetKeyDown(KeyCode.DownArrow) && layers > 1) 
->>>>>>> Simon:Assets/Scripts/PlayerController.cs
         { 
         characterController.Move(-Vector3.forward * distance); 
         layers--; 
