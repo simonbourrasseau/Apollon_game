@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":2.2758493423461916,"y":-0.08416745066642761,"z":-0.9884476661682129},"rotation":{"x":0.007066810037940741,"y":0.992494523525238,"z":-0.10008319467306137,"w":0.07008705288171768},"size":3.868187665939331,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-2.469269037246704,"y":-0.8157185912132263,"z":0.7839946746826172},"rotation":{"x":0.2488243281841278,"y":0.32076263427734377,"z":-0.0877365916967392,"w":0.9096740484237671},"size":13.14619255065918,"orthographic":true}
+>>>>>>> Simon
