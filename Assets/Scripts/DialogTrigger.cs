@@ -27,7 +27,6 @@ public class DialogTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isInRange = true;
-            Debug.Log("range enter " + isInRange);
             if (numberOfInteractions == 0)
             {
                 TriggerDialog();
@@ -40,13 +39,11 @@ public class DialogTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isInRange = false;
-            Debug.Log("range exit " + isInRange);
         }
     }
 
     void TriggerDialog()
     {
-        Debug.Log("trigger dialog inside");
         DialogManager.instance.StartDialog(npc, numberOfInteractions, this);
         isDialogOpen = true;
         if (numberOfInteractions < npc.dialogs.Length-1)
@@ -70,6 +67,5 @@ public class DialogTrigger : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         this.isDialogOpen = value;
-        Debug.Log("setisdialogopen " + isDialogOpen);
     }
 }

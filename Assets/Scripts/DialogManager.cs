@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
-    public Text nameText;
-    public Text dialogText;
+    private Text nameText;
+    private Text dialogText;
 
     public GameObject dialogUI;
-    public Animator animator;
+    private Animator animator;
 
     private Queue<string> sentences;
 
@@ -21,6 +21,8 @@ public class DialogManager : MonoBehaviour
     private float waitTime = 0.04f;
 
     private DialogTrigger dialogTrigger;
+
+    private Text[] texts;
 
     private void Awake()
     {
@@ -39,6 +41,12 @@ public class DialogManager : MonoBehaviour
             dialogUI.SetActive(true);
         }
 
+        animator = dialogUI.GetComponent<Animator>();
+        texts = dialogUI.GetComponents<Text>();
+
+        nameText = texts[0];
+        dialogText = texts[1];
+
         dialogText.text = "";
     }
 
@@ -46,7 +54,6 @@ public class DialogManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && dialogTrigger && dialogTrigger.GetIsDialogOpen() && isReadyToPrintNextSentence)
         {
-            Debug.Log("update dialogManager");
             DisplayNextSentence();
             isReadyToPrintNextSentence = false;
         }
@@ -85,8 +92,6 @@ public class DialogManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        Debug.Log("bool animator display : " + animator.GetBool("IsOpen"));
-        Debug.Log("sentences.count : " + sentences.Count);
         if (sentences.Count == 0)
         {
             EndDialog();
@@ -122,7 +127,5 @@ public class DialogManager : MonoBehaviour
         dialogText.text = "";
         animator.SetBool("IsOpen", false);
         dialogTrigger.SetIsDialogOpen(false);
-        //dialogTrigger = null;
-        Debug.Log("bool animator end : " + animator.GetBool("IsOpen"));
     }
 }
