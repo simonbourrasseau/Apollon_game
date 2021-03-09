@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
-    private Text nameText;
-    private Text dialogText;
+    public Text nameText;
+    public Text dialogText;
 
     public GameObject dialogUI;
-    private Animator animator;
+    public Animator animator;
 
     private Queue<string> sentences;
 
@@ -41,11 +41,11 @@ public class DialogManager : MonoBehaviour
             dialogUI.SetActive(true);
         }
 
-        animator = dialogUI.GetComponent<Animator>();
-        texts = dialogUI.GetComponents<Text>();
+        //animator = dialogUI.GetComponent<Animator>();
+        //texts = dialogUI.GetComponents<Text>();
 
-        nameText = texts[0];
-        dialogText = texts[1];
+        //nameText = texts[0];
+        //dialogText = texts[1];
 
         dialogText.text = "";
     }

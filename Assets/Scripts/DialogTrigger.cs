@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class DialogTrigger : MonoBehaviour
 {
-    public Animator animator;
+    //public Animator animator;
 
     public NPC npc;
 
@@ -17,7 +17,6 @@ public class DialogTrigger : MonoBehaviour
     {
         if(isInRange && Input.GetKeyDown(KeyCode.E) && !isDialogOpen)
         {
-            Debug.Log("trigger dialog key down");
             TriggerDialog();
         }
     }
