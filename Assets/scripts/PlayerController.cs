@@ -10,7 +10,9 @@ public class PlayerController : MonoBehaviour
     private int distance = 1;
     private float _directionY;
 
- 
+    public Animator animator;
+
+
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
@@ -20,52 +22,40 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-       
-
-
-        Vector3 direction = new Vector3(horizontal, 0);
-
-       if(characterController.isGrounded){
-
-            if(Input.GetButtonDown("Jump")){
-            _directionY = _jumpSpeed;
-        }
-
-       }
-
-        _directionY -= _gravity * Time.deltaTime;
-
-        direction.y = _directionY;
-
-
-
-
-        characterController.Move(direction * _moveSpeed * Time.deltaTime);
-
-
-
-
-
-
-
-
-        if (Input.GetKeyDown(KeyCode.UpArrow) && layers < 3)
+        if (!animator.GetBool("IsOpen"))
         {
-            characterController.Move(Vector3.forward * distance);
-            layers += 1;
+            float horizontal = Input.GetAxis("Horizontal");
+            float vertical = Input.GetAxis("Vertical");
+
+            Vector3 direction = new Vector3(horizontal, 0);
+
+            if (characterController.isGrounded)
+            {
+
+                if (Input.GetButtonDown("Jump"))
+                {
+                    _directionY = _jumpSpeed;
+                }
+
+            }
+
+            _directionY -= _gravity * Time.deltaTime;
+
+            direction.y = _directionY;
+
+            characterController.Move(direction * _moveSpeed * Time.deltaTime);
+
+            if (Input.GetKeyDown(KeyCode.UpArrow) && layers < 3)
+            {
+                characterController.Move(Vector3.forward * distance);
+                layers += 1;
+            }
+            else if (Input.GetKeyDown(KeyCode.DownArrow) && layers > 1)
+            {
+                characterController.Move(-Vector3.forward * distance);
+                layers--;
+            }
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow) && layers > 1)
-        {
-            characterController.Move(-Vector3.forward * distance);
-            layers--;
-        }
-
-
-
-
-
     }
 }
+
