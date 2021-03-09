@@ -71,10 +71,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 Packages/packages-lock.json
-<<<<<<< HEAD
-=======
-
-/Library/*
->>>>>>> Simon
 
 Assets/Plugins/IngameDebugConsole
+
+#hello
