@@ -7,6 +7,7 @@ public class DialogManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogText;
+    public Text nextText;
 
     public GameObject dialogUI;
     public Animator animator;
@@ -17,6 +18,7 @@ public class DialogManager : MonoBehaviour
 
     private bool isReadyToPrintNextSentence = false;
     private bool rushSentence = false;
+    private bool dialogIsEnded = false;
 
     private float waitTime = 0.04f;
 
@@ -41,13 +43,11 @@ public class DialogManager : MonoBehaviour
             dialogUI.SetActive(true);
         }
 
-        //animator = dialogUI.GetComponent<Animator>();
-        //texts = dialogUI.GetComponents<Text>();
-
-        //nameText = texts[0];
-        //dialogText = texts[1];
+        nameText.enabled = false;
 
         dialogText.text = "";
+        
+        nextText.text = "E==>";
     }
 
     private void Update()
@@ -62,6 +62,23 @@ public class DialogManager : MonoBehaviour
         {
             rushSentence = true;
         }
+
+        if (rushSentence == false && isReadyToPrintNextSentence == false)
+        {
+            nextText.text = "Espace>>>";
+        }
+        else
+        {
+            nextText.text = "E==>";
+        }
+
+        if (dialogIsEnded)
+        {
+            dialogText.text = "";
+            nameText.text = "";
+            nameText.enabled = false;
+            nextText.text = "";
+        }
     }
 
     public void StartDialog(NPC npc, int numberOfInteractions, DialogTrigger dialogTrigger)
@@ -69,6 +86,8 @@ public class DialogManager : MonoBehaviour
         this.dialogTrigger = dialogTrigger;
 
         dialogText.text = "";
+
+        dialogIsEnded = false;
 
         animator.SetBool("IsOpen", true);
 
@@ -86,7 +105,8 @@ public class DialogManager : MonoBehaviour
 
     IEnumerator WaitForEndOfAnimation()
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.4f);
+        nameText.enabled = true;
         DisplayNextSentence();
     }
 
@@ -124,7 +144,7 @@ public class DialogManager : MonoBehaviour
 
     void EndDialog()
     {
-        dialogText.text = "";
+        dialogIsEnded = true;
         animator.SetBool("IsOpen", false);
         dialogTrigger.SetIsDialogOpen(false);
     }

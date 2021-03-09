@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class DialogTrigger : MonoBehaviour
 {
-    //public Animator animator;
-
     public NPC npc;
 
     private bool isInRange;
