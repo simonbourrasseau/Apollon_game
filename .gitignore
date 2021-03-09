@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
+[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -71,10 +71,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 Packages/packages-lock.json
-<<<<<<< HEAD
-=======
-
-/Library/*
->>>>>>> Simon
 
 Assets/Plugins/IngameDebugConsole
+
+#hello
