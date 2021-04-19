@@ -13706,7 +13706,9 @@ MonoBehaviour:
   _moveSpeed: 5
   _gravity: 9.81
   _jumpSpeed: 3.5
-  animator: {fileID: 845172745}
+  animators:
+  - {fileID: 845172745}
+  - {fileID: 0}
 --- !u!143 &409605174
 CharacterController:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     private int distance = 1;
     private float _directionY;
 
-    public Animator animator;
+    public Animator[] animators;
 
 
     private void Start()
@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
 
-        if (!animator.GetBool("IsOpen"))
+        if (!animators[0].GetBool("IsOpen"))
         {
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
