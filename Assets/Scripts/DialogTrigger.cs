@@ -11,6 +11,8 @@ public class DialogTrigger : MonoBehaviour
 
     private bool isDialogOpen = false;
 
+    public bool dialogOnTrigger;
+
     void Update()
     {
         if(isInRange && Input.GetKeyDown(KeyCode.E) && !isDialogOpen)
@@ -24,7 +26,7 @@ public class DialogTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isInRange = true;
-            if (numberOfInteractions == 0)
+            if (numberOfInteractions == 0 && dialogOnTrigger == true)
             {
                 TriggerDialog();
             }

@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a806d77de550504bb7e9881407f9957, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
   npc:
     name: 
     dialogs: []
+  dialogOnTrigger: 1
 --- !u!65 &3180442481448927310
 BoxCollider:
   m_ObjectHideFlags: 0
