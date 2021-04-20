@@ -35,6 +35,11 @@ public class PlayerController : MonoBehaviour
                 if (Input.GetButtonDown("Jump"))
                 {
                     _directionY = _jumpSpeed;
+                    animators[1].SetBool("Air", true);
+                }
+                else
+                {
+                    animators[1].SetBool("Air", false);
                 }
 
             }
@@ -73,7 +78,7 @@ public class PlayerController : MonoBehaviour
             {
                 spriteRenderer.flipX = true;
 
-            }else if(horizontal < 0.1f)
+            }else if(horizontal < -0.1f)
             {
                 spriteRenderer.flipX = false;
             }
