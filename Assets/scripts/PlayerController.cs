@@ -1,5 +1,5 @@
 using UnityEngine;
- 
+
 public class PlayerController : MonoBehaviour
 {
     CharacterController characterController;
@@ -10,19 +10,19 @@ public class PlayerController : MonoBehaviour
     private int distance = 1;
     private float _directionY;
 
-    public Animator animator;
+    public Animator[] animators;
+    public SpriteRenderer spriteRenderer;
 
 
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
     }
- 
+
 
     void Update()
     {
-
-        if (!animator.GetBool("IsOpen"))
+        if (!animators[0].GetBool("IsOpen"))
         {
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour
 
             characterController.Move(direction * _moveSpeed * Time.deltaTime);
 
+            
+
             if (Input.GetKeyDown(KeyCode.UpArrow) && layers < 3)
             {
                 characterController.Move(Vector3.forward * distance);
@@ -55,7 +57,34 @@ public class PlayerController : MonoBehaviour
                 characterController.Move(-Vector3.forward * distance);
                 layers--;
             }
+
+
+            Flip(horizontal);
+            animators[1].SetFloat("Vitesse", Mathf.Abs(horizontal));
+
+
+
+
         }
-    }
+
+        void Flip(float horizontal)
+        {
+            if(horizontal > 0.1f)
+            {
+                spriteRenderer.flipX = true;
+
+            }else if(horizontal < 0.1f)
+            {
+                spriteRenderer.flipX = false;
+            }
+            
+
+
+        }
+
+
+
 }
 
+}
+    
