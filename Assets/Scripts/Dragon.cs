@@ -32,8 +32,14 @@ public class Dragon : MonoBehaviour
     {
     	transform.Translate(0f, -2.5f, 0f);
     	dragonDied = true;
-    	spriteRenderer.sprite = newSprite; 
-    	SceneManager.LoadScene("MainMenu");
-    	
+    	spriteRenderer.sprite = newSprite;
+        StartCoroutine(WaitJustABit());
+    }
+
+    IEnumerator WaitJustABit()
+    {
+        Debug.Log("oui");
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("MainMenu");
     }
 }
