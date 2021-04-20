@@ -31,7 +31,6 @@ public class Dragon : MonoBehaviour
     {
     	transform.Translate(0f, -2.5f, 0f);
     	dragonDied = true;
-    	        spriteRenderer.sprite = newSprite; 
-
+    	spriteRenderer.sprite = newSprite; 
     }
 }
