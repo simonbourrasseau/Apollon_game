@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FireBall : MonoBehaviour
 {
@@ -19,20 +20,22 @@ public class FireBall : MonoBehaviour
 	void Update()
 	{
 		Vector3  dir = target.position - transform.position;
-		//Debug.Log(dir);
 		transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 		
-		//Debug.Log(Vector3.Distance(transform.position, target.position));
 		
 		if(Vector3.Distance(transform.position, target.position) < 0.3f)
         	{
-            		//destPoint = (destPoint + 1) % waypoints.Length;
-			//target = waypoints[destPoint];
-			
 			transform.position = GameObject.Find("Waypoint1").transform.position;
 		}
 	}
-
+	
+    void OnTriggerEnter(Collider ball)
+    {
+     	if (ball.CompareTag("Player"))
+	{
+        	SceneManager.LoadScene("Final_Boss");
+	}
+    }
 }
 
 
