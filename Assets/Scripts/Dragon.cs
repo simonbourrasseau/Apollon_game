@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Dragon : MonoBehaviour
 {
@@ -32,5 +33,7 @@ public class Dragon : MonoBehaviour
     	transform.Translate(0f, -2.5f, 0f);
     	dragonDied = true;
     	spriteRenderer.sprite = newSprite; 
+    	SceneManager.LoadScene("MainMenu");
+    	
     }
 }
